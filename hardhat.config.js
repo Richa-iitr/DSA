@@ -4,6 +4,7 @@ require("@nomiclabs/hardhat-web3");
 require('dotenv').config({ path: './env' })
 
 
+
 module.exports = {
   networks: {
     hardhat: {
@@ -11,7 +12,7 @@ module.exports = {
         url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.API_URL}`,
       },
       chainId: 1
-    }
+    },
   },
   solidity: {
     compilers: [
