@@ -30,9 +30,11 @@ async function main(){
     "0x3684AB4DA866014240",
   ]);
 
+  //configuring the global dsa instance
   await dsa.setInstance(dsaID);
   let spells = dsa.Spell();
 
+  //spell to deposit to ETH to compound
   await spells.add({
     connector: "compound",
     method: "deposit",
@@ -58,6 +60,7 @@ async function main(){
   console.log("Instance:", dsa.instance);
   console.log("Spells:", dsa.encodeSpells(spells));
 
+  //casting the spell
   console.log("Transcation Hash:",
     await dsa.cast({
       spells,
