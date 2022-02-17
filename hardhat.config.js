@@ -9,8 +9,6 @@ module.exports = {
     hardhat: {
       forking: {
         url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.API_URL}`,
-        url: "https://eth-mainnet.alchemyapi.io/v2/oZ0ogaANt4gJcDA_ZtBN2_JM6CMF0r-s",
-        blockNumber: 11095000,
       },
       chainId: 1
     }
