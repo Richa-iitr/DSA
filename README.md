@@ -13,3 +13,6 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+### Output
+
+![alt text](https://github.com/Richa-iitr/AAVESmartContract/blob/master/img/Screenshot from 2022-02-17 19-54-38.png?raw=true)
