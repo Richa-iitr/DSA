@@ -15,4 +15,4 @@ npx hardhat help
 ```
 ### Output
 
-![Screenshot from 2022-02-17 19-54-38](https://user-images.githubusercontent.com/76250660/154503458-f95bccf3-0a39-4742-af0d-5cbbeeb9b908.png)
+![alt text](https://github.com/Richa-iitr/DSA/blob/master/img/Output.png?raw=true)
