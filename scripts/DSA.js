@@ -23,10 +23,10 @@ async function main(){
   let accounts = await dsa.getAccounts(address);
   console.log(accounts);
 
-  let dsaID = 34277;
+  let dsaID = accounts[0].id;
 
   await network.provider.send("hardhat_setBalance", [
-    "0x0D56D48Fe02fc50c708dd33D7DC6658cb2b23FcE",
+    accounts[0].address,
     "0x3684AB4DA866014240",
   ]);
 
